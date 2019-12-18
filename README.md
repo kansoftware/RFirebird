@@ -2,7 +2,7 @@
 Usage Firebird/Interbase databases in R (Linux)
 
 ## Install libs and packages
-Examples with java 8 and Ubuntu 18.04:
+Example with java 8 and Ubuntu 18.04:
 
 ```bash
 sudo apt install openjdk-8-jdk default-jdk libbz2-dev liblzma-dev libfbclient2 -y
@@ -33,4 +33,4 @@ Download JDBC Driver for you server version from: https://firebirdsql.org/en/jdb
 unzip, and use path to full package version (ex: jaybird-full-2.2.15.jar) as 'driver_path'
 
 ## Usage
-Examples watch into example.R
+Examples watch into [example.R](https://github.com/kansoftware/RFirebird/blob/master/example.R)

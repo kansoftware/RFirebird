@@ -7,8 +7,8 @@ comments_data <- fb_get_query( paste0("select * from COMMENTS;"), connection2db,
 
 connection2db_2 <- set_fb_parameters(
               path = 'tradebot14',
-              host = '172.17.76.75',
-              driver_path = '/home/wellington/Soft/Jaybird-2.2.15/jaybird-full-2.2.15.jar' )
+              host = '192.17.76.75',
+              driver_path = '~/Soft/Jaybird-2.2.15/jaybird-full-2.2.15.jar' )
 bots_data <- fb_get_query( paste0("select * from PARAM_BOTS;"), connection2db_2)
 
 
